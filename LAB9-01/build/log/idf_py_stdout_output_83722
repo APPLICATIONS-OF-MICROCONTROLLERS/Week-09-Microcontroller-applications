@@ -1,0 +1,43 @@
+-- Found Git: /usr/bin/git (found version "2.39.5 (Apple Git-154)") 
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /Users/tanwat/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/tanwat/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/tanwat/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /Users/tanwat/091_Week-09-Microcontroller/091_Week-09-Microcontroller-applications/LAB9-01/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /Users/tanwat/.espressif/python_env/idf5.1_py3.9_env/bin/python (found version "3.9.6") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "LAB01" version: e8bac2e
+-- Adding linker script /Users/tanwat/091_Week-09-Microcontroller/091_Week-09-Microcontroller-applications/LAB9-01/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Users/tanwat/esp/v5.1-rc2/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Users/tanwat/esp/v5.1-rc2/esp-idf/components/app_trace /Users/tanwat/esp/v5.1-rc2/esp-idf/components/app_update /Users/tanwat/esp/v5.1-rc2/esp-idf/components/bootloader /Users/tanwat/esp/v5.1-rc2/esp-idf/components/bootloader_support /Users/tanwat/esp/v5.1-rc2/esp-idf/components/bt /Users/tanwat/esp/v5.1-rc2/esp-idf/components/cmock /Users/tanwat/esp/v5.1-rc2/esp-idf/components/console /Users/tanwat/esp/v5.1-rc2/esp-idf/components/cxx /Users/tanwat/esp/v5.1-rc2/esp-idf/components/driver /Users/tanwat/esp/v5.1-rc2/esp-idf/components/efuse /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp-tls /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_adc /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_app_format /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_coex /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_common /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_eth /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_event /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_gdbstub /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_hid /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_http_client /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_http_server /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_https_ota /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_https_server /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_hw_support /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_lcd /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_local_ctrl /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_mm /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_netif /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_netif_stack /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_partition /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_phy /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_pm /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_psram /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_ringbuf /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_rom /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_system /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_timer /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_wifi /Users/tanwat/esp/v5.1-rc2/esp-idf/components/espcoredump /Users/tanwat/esp/v5.1-rc2/esp-idf/components/esptool_py /Users/tanwat/esp/v5.1-rc2/esp-idf/components/fatfs /Users/tanwat/esp/v5.1-rc2/esp-idf/components/freertos /Users/tanwat/esp/v5.1-rc2/esp-idf/components/hal /Users/tanwat/esp/v5.1-rc2/esp-idf/components/heap /Users/tanwat/esp/v5.1-rc2/esp-idf/components/http_parser /Users/tanwat/esp/v5.1-rc2/esp-idf/components/idf_test /Users/tanwat/esp/v5.1-rc2/esp-idf/components/ieee802154 /Users/tanwat/esp/v5.1-rc2/esp-idf/components/json /Users/tanwat/esp/v5.1-rc2/esp-idf/components/log /Users/tanwat/esp/v5.1-rc2/esp-idf/components/lwip /Users/tanwat/091_Week-09-Microcontroller/091_Week-09-Microcontroller-applications/LAB9-01/main /Users/tanwat/esp/v5.1-rc2/esp-idf/components/mbedtls /Users/tanwat/esp/v5.1-rc2/esp-idf/components/mqtt /Users/tanwat/esp/v5.1-rc2/esp-idf/components/newlib /Users/tanwat/esp/v5.1-rc2/esp-idf/components/nvs_flash /Users/tanwat/esp/v5.1-rc2/esp-idf/components/openthread /Users/tanwat/esp/v5.1-rc2/esp-idf/components/partition_table /Users/tanwat/esp/v5.1-rc2/esp-idf/components/perfmon /Users/tanwat/esp/v5.1-rc2/esp-idf/components/protobuf-c /Users/tanwat/esp/v5.1-rc2/esp-idf/components/protocomm /Users/tanwat/esp/v5.1-rc2/esp-idf/components/pthread /Users/tanwat/esp/v5.1-rc2/esp-idf/components/sdmmc /Users/tanwat/esp/v5.1-rc2/esp-idf/components/soc /Users/tanwat/esp/v5.1-rc2/esp-idf/components/spi_flash /Users/tanwat/esp/v5.1-rc2/esp-idf/components/spiffs /Users/tanwat/esp/v5.1-rc2/esp-idf/components/tcp_transport /Users/tanwat/esp/v5.1-rc2/esp-idf/components/ulp /Users/tanwat/esp/v5.1-rc2/esp-idf/components/unity /Users/tanwat/esp/v5.1-rc2/esp-idf/components/usb /Users/tanwat/esp/v5.1-rc2/esp-idf/components/vfs /Users/tanwat/esp/v5.1-rc2/esp-idf/components/wear_levelling /Users/tanwat/esp/v5.1-rc2/esp-idf/components/wifi_provisioning /Users/tanwat/esp/v5.1-rc2/esp-idf/components/wpa_supplicant /Users/tanwat/esp/v5.1-rc2/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/tanwat/091_Week-09-Microcontroller/091_Week-09-Microcontroller-applications/LAB9-01/build
