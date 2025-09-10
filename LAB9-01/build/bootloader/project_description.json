@@ -1,0 +1,26 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/Users/tanwat/esp/v5.1-rc2/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/Users/tanwat/091_Week-09-Microcontroller/091_Week-09-Microcontroller-applications/LAB9-01/build/bootloader",
+    "config_file":        "/Users/tanwat/091_Week-09-Microcontroller/091_Week-09-Microcontroller-applications/LAB9-01/sdkconfig",
+    "config_defaults":    "",
+    "bootloader_elf":     "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "build_type":         "flash_app",
+    "git_revision":       "v5.1-rc2-dirty",
+    "target":             "esp32",
+    "rev":                "0",
+    "min_rev":            "0",
+    "max_rev":            "399",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/Users/tanwat/esp/v5.1-rc2/esp-idf/components/efuse/Kconfig;/Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_common/Kconfig;/Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_hw_support/Kconfig;/Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_system/Kconfig;/Users/tanwat/esp/v5.1-rc2/esp-idf/components/freertos/Kconfig;/Users/tanwat/esp/v5.1-rc2/esp-idf/components/hal/Kconfig;/Users/tanwat/esp/v5.1-rc2/esp-idf/components/log/Kconfig;/Users/tanwat/esp/v5.1-rc2/esp-idf/components/newlib/Kconfig;/Users/tanwat/esp/v5.1-rc2/esp-idf/components/soc/Kconfig;/Users/tanwat/esp/v5.1-rc2/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/Users/tanwat/esp/v5.1-rc2/esp-idf/components/bootloader/Kconfig.projbuild;/Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_app_format/Kconfig.projbuild;/Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_rom/Kconfig.projbuild;/Users/tanwat/esp/v5.1-rc2/esp-idf/components/esptool_py/Kconfig.projbuild;/Users/tanwat/esp/v5.1-rc2/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp_app_format", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/Users/tanwat/esp/v5.1-rc2/esp-idf/components/bootloader", "/Users/tanwat/esp/v5.1-rc2/esp-idf/components/bootloader_support", "/Users/tanwat/esp/v5.1-rc2/esp-idf/components/efuse", "/Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_app_format", "/Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_common", "/Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_hw_support", "/Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_rom", "/Users/tanwat/esp/v5.1-rc2/esp-idf/components/esp_system", "/Users/tanwat/esp/v5.1-rc2/esp-idf/components/esptool_py", "/Users/tanwat/esp/v5.1-rc2/esp-idf/components/freertos", "/Users/tanwat/esp/v5.1-rc2/esp-idf/components/hal", "/Users/tanwat/esp/v5.1-rc2/esp-idf/components/log", "/Users/tanwat/esp/v5.1-rc2/esp-idf/components/bootloader/subproject/main", "/Users/tanwat/esp/v5.1-rc2/esp-idf/components/bootloader/subproject/components/micro-ecc", "/Users/tanwat/esp/v5.1-rc2/esp-idf/components/newlib", "/Users/tanwat/esp/v5.1-rc2/esp-idf/components/partition_table", "/Users/tanwat/esp/v5.1-rc2/esp-idf/components/soc", "/Users/tanwat/esp/v5.1-rc2/esp-idf/components/spi_flash", "/Users/tanwat/esp/v5.1-rc2/esp-idf/components/xtensa", "" ],
+    "debug_prefix_map_gdbinit": ""
+}
